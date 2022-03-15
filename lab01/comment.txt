@@ -1,0 +1,3 @@
+Prawie wszystko dziala, problem jedynie z dynamicznymi biblotekami nic nie wypisuja/ aktualizuja
+makei w kazdym katalogu smigaja az milo
+funkcje dzialaja bardzo szybko na przetestowanych przykladach

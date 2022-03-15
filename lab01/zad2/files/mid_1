@@ -1,0 +1,9 @@
+Program gcc (wywoływany podczas kompilacji np. z linii poleceń) odpowiada za przetworzenie argumentów,
+ uruchomienie odpowiedniego kompilatora właściwego dla języka programowania w jakim zakodowano plik z 
+ kodem źródłowym, wykonanie programu asemblera dla tak otrzymanego wyniku oraz uruchomienie konsolidatora 
+ (linkera) w celu uzyskania pliku wykonywalnego.
+Przykładowo dla pliku napisanego w C zostaną wykonane następujące programy: preprocesor cpp, 
+kompilator cc1, asembler as oraz konsolidator collect2 (dostępny zazwyczaj jako program ld). 
+Należy przy tym zwrócić uwagę, iż program as wchodzi w skład pakietu oprogramowania binutils. 
+Również pliki nagłówkowe biblioteki standardowej języka C nie są częścią GCC.
+Kompilator GCC składa się z 3 głównych części: front endu, middle endu oraz back endu.

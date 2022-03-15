@@ -1,0 +1,7 @@
+stimer
+create_table 2
+etimer create_table_2
+stimer
+wc_files ./files/mid_1./files/mid_2
+etimer loading_2_mid_files
+remove_block 1

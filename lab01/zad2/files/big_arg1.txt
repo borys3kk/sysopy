@@ -1,0 +1,9 @@
+stimer
+create_table 100
+etimer create_table_100
+stimer
+wc_files ./files/big_1 ./files/big_1 ./files/big_1 
+wc_files ./files/big_1 ./files/big_2 ./files/big_2
+wc_files ./files/big_1 ./files/big_2 ./files/big_2 ./files/big_1
+etimer loading_10_big_files
+remove_block 1

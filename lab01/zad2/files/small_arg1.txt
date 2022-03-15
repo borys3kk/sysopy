@@ -1,0 +1,7 @@
+stimer
+create_table 2
+etimer create_table_2
+stimer
+wc_files ./files/small_1 ./files/small_2
+etimer loading_2_small_files
+remove_block 1
