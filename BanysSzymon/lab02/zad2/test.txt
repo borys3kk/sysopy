@@ -1,0 +1,5 @@
+x d
+d x d
+d d d
+
+x x d
