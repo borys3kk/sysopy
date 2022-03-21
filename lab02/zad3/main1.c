@@ -28,7 +28,7 @@ char* update_num_types(int _types)
     printf("%d", _types);
     switch (_types)
     {
-    case S_IFDIR:
+    case FTW_D || FTW_DNR:
         ptr->dir++;
         return "-dir";
     case FTW_F:
