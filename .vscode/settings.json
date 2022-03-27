@@ -4,6 +4,7 @@
         "library.h": "c",
         "unistd.h": "c",
         "stat.h": "c",
-        "times.h": "c"
+        "times.h": "c",
+        "malloc.h": "c"
     }
 }
