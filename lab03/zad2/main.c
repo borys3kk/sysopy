@@ -40,10 +40,11 @@ void calculate_integral(int i, double _width, int rect_per_process, double right
     double result;
     for (int rect = 1; rect <= rect_per_process; rect++)
     {
+        right_edge -= _width;
         result = rect_area(_width, right_edge);
         printf("PPID: %d PID: %d rect_area: %f \n", getppid(), getpid(), result);
         fprintf(res_file, "%f \n", result);
-        right_edge -= _width;
+        
     }
     free(res);
     fclose(res_file);
@@ -86,7 +87,7 @@ int main(int argc, char const *argv[])
     while ((wpid = wait(&status)) > 0); //to not leave all time orphans
 
     double final_result = 0;
-    FILE *res_file = fopen("result.txt", "w+");
+    FILE *res_file = fopen("result", "w+");
     for (int i = 1; i <= num_processes; i++)
     {
         char* res = calloc(sizeof(char), 256);
