@@ -5,6 +5,9 @@
         "unistd.h": "c",
         "stat.h": "c",
         "times.h": "c",
-        "malloc.h": "c"
+        "malloc.h": "c",
+        "types.h": "c",
+        "errno.h": "c",
+        "signal.h": "c"
     }
 }

@@ -1,0 +1,10 @@
+w makefilu robio sie pliki sender i catcher
+Przy uzyciu KILL
+Finished waiting for signals, Received 8094 out of 100000 sent. // w transmiterze
+Receiver received: 49815 signals, starting to respond           // w receiverze
+Przy uzyciu SIGQUEUE
+Finished waiting for signals, Received 12124 out of 100000 sent. // w transmiterze
+Receiver received: 99262 signals, starting to respond            // w receiverze
+Przy uzyciu SIGRT
+Finished waiting for signals, Received 5320 out of 100000 sent. // w transmiterze
+Receiver received: 48367 signals, starting to respond           // w receiverze

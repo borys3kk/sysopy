@@ -1,0 +1,3 @@
+Wnioski z uruchamiania:
+-fork dziediczy handler, a exec ustawia handler na domyslny
+-ustawienia maski i ignore sa dziediczone
