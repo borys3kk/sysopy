@@ -8,6 +8,7 @@
         "malloc.h": "c",
         "types.h": "c",
         "errno.h": "c",
-        "signal.h": "c"
+        "signal.h": "c",
+        "string.h": "c"
     }
 }
