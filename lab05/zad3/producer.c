@@ -15,11 +15,8 @@ int main(int argc, char *argv[])
     char *fp = argv[3];
     int N = atoi(argv[4]);
 
-    printf("Row_num: %d\n", row);
     FILE *pipe = fopen(pp, "w");
-    FILE *file = fopen(fp, "r+");
-        printf("Im here\n,%d", getpid());
-    
+    FILE *file = fopen(fp, "r+"); 
 
     char buffer[N];
     char msg[N+5];

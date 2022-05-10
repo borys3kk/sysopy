@@ -13,3 +13,4 @@ test: compile
 
 clean:
 		rm -f test producer consumer pipe
+		clear

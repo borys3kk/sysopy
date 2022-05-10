@@ -148,8 +148,8 @@ int main()
 {
     // printf("Making fifo\n");
     
-    mkfifo("pipe", 0666);
-    printf("made pipe\n");
+    // mkfifo("pipe", 0666);
+    // printf("made pipe\n");
 
     printf("|---------- MANY TO ONE ----------|\n");
     many_to_one_test();
