@@ -11,3 +11,5 @@ The code is entirely written in C.
 ### [Lab04 Signals, handling, communication between processes](./lab04)
 
 ### [Lab05 Pipes.](./lab05)
+
+### [Lab06 "Simple" chat](./lab06)
